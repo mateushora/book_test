@@ -1,0 +1,26 @@
+- file: docs/landing_page
+
+- part: Geral
+  chapters:
+  - file: docs/0_contexto
+
+- part: Sanity Check
+  chapters:
+  - file: docs/sanity_check/geral
+  - file: docs/sanity_check/missing_values
+  - file: docs/sanity_check/outliers
+
+- part: EDA
+  chapters:
+  - file: docs/eda/general_plots
+  - file: docs/eda/numeric_variables
+    sections:
+      - file: docs/eda/numeric_vars/suporte
+      - file: docs/eda/numeric_vars/transporte
+      - file: docs/eda/numeric_vars/hops_9
+      - file: docs/eda/numeric_vars/hops_12
+      - file: docs/eda/numeric_vars/hops_13
+  - file: docs/eda/date_variables
+    sections:
+      - file: docs/eda/date_vars/date
+  - file: docs/eda/consideracoes_finais
